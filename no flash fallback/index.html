@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 Video</title>
+	<link rel="stylesheet" href="stylesheets/stylesheet.css">
+</head>
+<body>
+	<section>
+		<button onclick="small()">Small</button>
+		<button onclick="normal()">Normal</button>
+		<button onclick="big()">Big</button>
+		<br>
+		<video id="video" width="420" controls poster="images/Penguins.jpg">
+			<source src="videos/Wildlife.mp4" type="video/mp4">
+			<source src="videos/Wildlife.webm" type="video/webm">
+			<source src="videos/Wildlife.ogv" type="video/ogg">
+		</video>
+		<script src="js/video.js"></script>
+	</section>
+</body>
+</html>
